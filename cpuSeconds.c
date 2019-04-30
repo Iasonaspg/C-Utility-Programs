@@ -1,6 +1,6 @@
 #include <sys/time.h>
 
-/* Function that returns current wall-time in seconds */
+/* Function that returns current wall-clock time in seconds */
 double cpuSecond() {
     struct timeval tp;
     gettimeofday(&tp,NULL);
